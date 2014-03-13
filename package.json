@@ -1,0 +1,35 @@
+{
+  "name": "npm-keyword-search",
+  "version": "0.1.0",
+  "description": "Search multiple keywords",
+  "main": "index.js",
+  "author": "Drew Stokes",
+  "license": "ISC",
+  "bin": {
+    "npm-keyword-search": "node ./index.js"
+  },
+  "dependencies": {
+    "npm": "~1.4.4",
+    "through": "~2.3.4",
+    "JSONStream": "~0.8.0",
+    "columnify": "~0.1.2",
+    "node-column": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "search",
+    "keywords"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dstokes/npm-keyword-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dstokes/npm-keyword-search/issues"
+  },
+  "homepage": "https://github.com/dstokes/npm-keyword-search"
+}
