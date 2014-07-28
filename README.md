@@ -2,6 +2,10 @@ npm-keyword-search
 ==========
 Search for modules containing multiple keywords.
 
+note
+====
+**NPM now supports this functionality and this module should be considered deprecated**
+
 example
 =======
 ```
